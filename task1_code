@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehan Abbas - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Reset some default styles to start fresh */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: #f0a500;
+        }
+
+        section {
+            padding: 40px;
+            color: #333;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Add some additional styles for visual appeal */
+        header {
+            background-color: #1a1a1a;
+        }
+
+        header .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+        }
+
+        .skill-icons {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .skill-icons li {
+            margin: 0 15px;
+            font-size: 1.5rem;
+        }
+
+        #skills {
+            background-color: #28FF85	;
+            color: #fff;
+        }
+
+        #experience {
+            background-color: #FFB86D	;
+            color: #000;
+            
+        }
+
+        #contact {
+            background-color: #ff0000;
+            color: #fff;
+        }
+
+        .timeline {
+            list-style: none;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .timeline li {
+            position: relative;
+            padding-bottom: 30px;
+        }
+
+        .timeline .date {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .timeline .event {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .timeline .description {
+            font-size: 1.1rem;
+        }
+
+        #contact form input,
+        #contact form textarea,
+        #contact form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #contact form button {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        #contact form button:hover {
+            background-color: #f0a500;
+        }
+        .description{
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <header style="background-image: url('your-background-image.jpg'); background-size: cover; background-position: center;">
+        <div class="overlay">
+            <h1 style="letter-spacing: 0.7rem;">REHAN ABBAS</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            My name is Rehan Abbas, and I am a passionate student in the field of computer engineering. 
+            With a strong fascination for technology and a keen interest in web development, 
+            I am continuously exploring and learning to build captivating and functional websites. 
+            I find joy in combining creativity with problem-solving to craft user-friendly and aesthetically 
+            pleasing digital experiences. Embracing the ever-evolving world of web technologies,
+             I aspire to contribute to the digital landscape by creating innovative and impactful web solutions.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skill-icons">
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+            <li><i class="fab fa-js"></i> JavaScript</li>
+            <li><i class="fa-solid fa-file-shield"></i> Data Structures</li>
+            <!-- Add more skills and icons as needed -->
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul class="timeline">
+            <li>
+                <div class="date">2023 - Present</div>
+                <div class="event">Project Intern, KPMG</div>
+                <div class="description">As an intern at KPMG, I had the valuable opportunity to 
+                    contribute to various projects and gain practical experience in the field of 
+                    auditing and financial consulting. Throughout my internship, I actively assisted 
+                    the team in conducting financial analysis, reviewing client records, and performing 
+                    data validation to ensure accuracy and compliance with regulatory standards. Additionally, 
+                    I participated in client meetings, providing valuable insights and helping in the 
+                    preparation of financial reports. My dedication to detail and willingness 
+                    to learn allowed me to make significant contributions to the team's success.</div>
+            </li>
+            <br>
+            <li>
+                <div class="date">2023 - Present</div>
+                <div class="event">Intern, Bharat Intern</div>
+                <div class="description">As an intern at Bharat Intern, I had the incredible
+                     opportunity to gain hands-on experience in the field of marketing and digital media. 
+                     Throughout my internship, I actively contributed to various marketing campaigns, both online and offline, to promote the company's products and services. I was involved in conducting market research, analyzing consumer trends, and identifying potential target audiences
+                      to optimize marketing strategies. Additionally, I played an essential role in managing social media platforms, creating engaging content, and tracking campaign performance metrics. My time at Bharat Intern allowed me to develop strong communication skills, work effectively in a dynamic team environment, and adapt to changing market demands. I am grateful for the enriching experience, as it reinforced my passion for marketing and inspired me to pursue a 
+                    career that utilizes creativity and data-driven insights to drive business growth.</div>
+            </li>
+            <!-- Add more timeline items for other experiences -->
+        </ul>
+    </section>
+
+    <section id="projects" style="background-color: aqua;">
+        <h2>Projects</h2>
+        <p>
+            <h3 style="font-weight: bold;">Weather Web Application</h5>
+                <p style="font-size: small;padding-top: 0%;">Made it using html, css, javascript, react and rapid-api, this web page tells
+                    about temperature and wind speed of any place on the globe.
+                     <br>link - <a href="https://rehan-weatherapp101.netlify.app/">https://rehan-weatherapp101.netlify.app/</a></p><br>
+                     <h3 style="font-weight: bold;">Distance Indicator (microprocessor project)</h3>
+                     <p style="font-size: small;">This is an Arduino based project. <br>It detects an object and based on distance it ons and off and led.</p><br>
+                     <h3 style="font-weight: bold;">Dynamic Registration Web App
+                    </h3><p style="font-size: small;">link - <a href="https://registerationform-rehan.netlify.app/">https://registerationform-rehan.netlify.app/</a></p>
+            
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact_form_handler.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
